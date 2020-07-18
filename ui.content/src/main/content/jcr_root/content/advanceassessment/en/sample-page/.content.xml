@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-03-11T01:34:52.140+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/advanceassessment/settings/wcm/templates/content-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Sample Page"
+        sling:resourceType="advanceassessment/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <pressreleaseindex
+                    jcr:created="{Date}2020-03-11T01:32:55.307+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-03-11T01:33:24.337+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="advanceassessment/components/content/pressreleaseIndex"
+                    filePath="/content/advanceassessment/en/press-release-index"/>
+                <apiintegration
+                    jcr:created="{Date}2020-03-11T01:34:19.929+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-03-11T01:34:40.713+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="advanceassessment/components/content/apiintegration"
+                    btnLabel="HIT"
+                    url="https://www.phoenix.edu/api/plct/3/uopx/programs/availability/fos?postalCode=85040"/>
+                <mailtocomponent
+                    jcr:created="{Date}2020-03-11T01:34:52.128+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-03-11T01:34:52.128+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sampleproject/components/content/mailtocomponent"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-03-10T23:55:02.505+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/advanceassessment/settings/wcm/templates/content-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Exercise 1"
+        sling:resourceType="advanceassessment/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <labels1
+                    jcr:created="{Date}2020-03-10T23:51:01.779+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-03-10T23:52:34.709+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="advanceassessment/components/content/labels1">
+                    <linklabel jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            linktexts="News"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            linktexts="Publications"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            linktexts="CLE Events"/>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            linktexts="Events &amp; Webinars"/>
+                        <item4
+                            jcr:primaryType="nt:unstructured"
+                            linktexts="Case Studies"/>
+                        <item5
+                            jcr:primaryType="nt:unstructured"
+                            linktexts="Crunched Credit Block"/>
+                    </linklabel>
+                </labels1>
+                <employeedetails
+                    jcr:created="{Date}2020-03-10T23:53:44.492+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-03-10T23:55:02.490+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="advanceassessment/components/content/employeedetails"
+                    addressline1="Plot number:38, N Heights, Hi-Tech City Phase-II"
+                    addressline2="Madhapur"
+                    city="Hyderabad"
+                    country="India"
+                    designation="Associate Software Engineer"
+                    faxnumber="404-1258967"
+                    name="Aditya Sharma"
+                    phonenumber="9898989898"
+                    state="Telangana"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

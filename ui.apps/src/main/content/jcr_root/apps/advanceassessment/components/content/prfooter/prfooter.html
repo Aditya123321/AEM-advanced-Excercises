@@ -1,0 +1,19 @@
+<div data-sly-test="${wcmmode.edit}" data-emptytext="List Children Component" class="cq-placeholder"></div>
+
+<sly data-sly-use.pageListing="com.tadigital.advanceassessment.core.models.PRContactModel"/>
+	<sly data-sly-list.iteratePageList="${pageListing.datafromContactModelList}">
+		<div class="prcontact_wrapper" style="border: 2px solid black;
+    background-color: lightgray;
+    margin-bottom: 20px;
+	margin-top: 20px;
+}">
+            <h5>Company Name: ${ iteratePageList.company}</h5>
+            <h5>Name: ${ iteratePageList.name}</h5>
+            <h5>Title: ${ iteratePageList.title}</h5>
+            <h5>Phone Number: ${ iteratePageList.phone}</h5>
+            <h5>Fax: ${ iteratePageList.fax}</h5>
+            <h5Email: >${ iteratePageList.email}</h5>
+            <h5>Alternate Email: ${ iteratePageList.altemail}</h5>
+		</div>
+    </sly>
+</sly>

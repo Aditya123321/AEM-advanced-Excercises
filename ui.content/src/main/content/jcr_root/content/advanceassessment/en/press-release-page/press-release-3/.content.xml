@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-03-11T12:00:04.335+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/advanceassessment/settings/wcm/templates/custom-page-properties-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Press Release 3"
+        sling:resourceType="sampleproject/components/structure/page2"
+        date="11/03/2020">
+        <root
+            jcr:lastModified="{Date}2020-02-14T12:42:49.967+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <pressreleasecomponen
+                jcr:created="{Date}2020-03-11T11:59:46.491+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-03-11T12:00:04.332+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="advanceassessment/components/content/pressreleasecomponent"
+                bodycontent="&lt;p>I was diagnosed with Type 1 about eight years ago, having had the classic symptoms of thirst, frequent trips to the toilet and unexplained weight loss. I'm a competitive white-water canoeist so finger prick testing was always difficult on the water. I also have extra challenges on race days where I must carefully time eating, insulin and closely monitor my levels right up to the point I get to the start line. But I've never used diabetes as an excuse for a bad race. There have been a couple of times I've not been at my best because of low or high sugars, but most of the time if I&lt;/p>&#xd;&#xa;"
+                intropara="&lt;p>Share Everyday Victories&lt;/p>&#xd;&#xa;"
+                subtitle="In the zone part 3"
+                textIsRich="[true,true]"/>
+        </root>
+    </jcr:content>
+</jcr:root>

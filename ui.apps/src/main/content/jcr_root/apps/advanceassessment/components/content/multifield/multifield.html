@@ -1,0 +1,12 @@
+<sly data-sly-use.linkModel="com.tadigital.advanceassessment.core.models.LinkModel"/>
+   ${linkModel.text}
+    <sly data-sly-test.empty="${!linkModel.linklabel}" />
+    <div data-sly-test="${wcmmode.edit && empty}" class="cq-placeholder" data-emptytext="${component.title}"></div>
+    <sly data-sly-test="${!empty}"> 
+      <div>
+          <ul class="list" data-sly-list.ll="${linkModel.linklabel}">
+            <li class="lis">   <a href="${ll.linkurl}" target="_blank">${ll.linktexts}</a>
+            </li>
+          </ul>
+      </div>
+    </sly>

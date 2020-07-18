@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-03-11T15:53:19.690+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/advanceassessment/settings/wcm/templates/content-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="FAQ Page 3"
+        sling:resourceType="advanceassessment/components/structure/page"
+        navTitle="faq page 3"
+        pageTitle="faq page 3">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <faq
+                    jcr:created="{Date}2020-03-11T15:52:52.845+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-03-11T15:53:19.684+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="advanceassessment/components/content/faq"
+                    ans="&lt;p>Canberaa&lt;/p>&#xd;&#xa;"
+                    cat="category1 "
+                    ques="What is the capital of Australia?"
+                    textIsRich="true"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

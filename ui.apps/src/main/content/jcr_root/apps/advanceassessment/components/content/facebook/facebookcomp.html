@@ -1,0 +1,28 @@
+<html>
+<head>
+  <title>Your Website Title</title>
+    <!-- You can use open graph tags to customize link previews.
+    Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+  <meta property="og:url"           content="${properties.urltolike}" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Your Website Title" />
+  <meta property="og:description"   content="Your description" />
+  <meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" />
+</head>
+<body>
+
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0"></script>
+  <!-- Your like button code -->
+<div id ="fb" class="fb-like" data-href="${properties.urltolike}" 
+data-width="${properties.width}"
+data-layout="${properties.layout}" 
+data-action="${properties.verbtodisplay}" 
+data-size="small"
+data-share="${properties.sendbutton}"
+data-show-faces="${properties.showfaces}"
+data-colorscheme="${properties.colorscheme}">
+</div>
+</body>
+</html>

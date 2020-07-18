@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-03-11T12:44:47.021+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/advanceassessment/settings/wcm/templates/pr-contact-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="PR Contact Page"
+        sling:resourceType="sampleproject/components/structure/prcontact"
+        altemail="itservicedesk@tadigital.com"
+        company="TA Digital"
+        email="admin@tadigital.com"
+        fax="040-8965327"
+        name="TA Digital"
+        phone="9898989898"
+        title="TA Digital">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <prfooter
+                jcr:created="{Date}2020-03-11T12:44:32.696+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-03-11T12:44:47.020+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="advanceassessment/components/content/prfooter"
+                contactfilePath="/content/advanceassessment/en/pr-contact-page"/>
+        </root>
+    </jcr:content>
+    <pr-contact-page-1/>
+    <pr-contact-page-2/>
+</jcr:root>

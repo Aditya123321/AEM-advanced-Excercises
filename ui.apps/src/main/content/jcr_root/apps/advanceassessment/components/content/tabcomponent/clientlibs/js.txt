@@ -1,0 +1,2 @@
+#base=js
+tabcomponent.js

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-03-11T11:51:48.660+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/sampleproject/settings/wcm/templates/custom-page-properties-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Press Release Index"
+        sling:resourceType="sampleproject/components/structure/page2">
+        <root
+            jcr:lastModified="{Date}2020-02-14T12:42:49.967+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <apiintegration
+                jcr:created="{Date}2020-03-11T01:13:33.449+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-03-11T01:14:44.390+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="advanceassessment/components/content/apiintegration"
+                btnLabel="HIT URL"
+                url="https://www.phoenix.edu/api/plct/3/uopx/programs/availability/fos?postalCode=85040"/>
+            <pressreleaseindex
+                jcr:created="{Date}2020-03-11T11:51:07.443+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-03-11T11:51:48.659+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="advanceassessment/components/content/pressreleaseIndex"
+                filePath="/content/advanceassessment/en/press-release-page"/>
+        </root>
+    </jcr:content>
+</jcr:root>

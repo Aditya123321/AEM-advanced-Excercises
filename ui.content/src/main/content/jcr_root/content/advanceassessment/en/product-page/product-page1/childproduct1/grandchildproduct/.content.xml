@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2020-03-08T20:48:52.266+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[products:product1,products:product2,products:product3,products:product4,products:product]"
+        cq:template="/conf/sampleproject/settings/wcm/templates/editable-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="GrandChildProduct1"
+        sling:resourceType="sampleproject/components/structure/page">
+        <root
+            jcr:lastModified="{Date}2020-02-18T14:25:21.336+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <text
+                jcr:created="{Date}2020-03-08T12:56:43.529+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-03-08T12:56:50.238+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Institute of&amp;nbsp;Physics&amp;nbsp;- Promoting&amp;nbsp;physics&amp;nbsp;and bringing&amp;nbsp;physicists&amp;nbsp;together for the benefit of all.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                textIsRich="true"/>
+        </root>
+    </jcr:content>
+</jcr:root>

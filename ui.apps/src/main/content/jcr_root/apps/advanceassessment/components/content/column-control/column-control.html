@@ -1,0 +1,125 @@
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html"/>
+
+<div class="${properties.isContainer ? 'container' : '' @ context = 'styleString'}" data-sly-unwrap="${!properties.isContainer}">
+    <div class="row ${properties.removeGutters ? 'no-gutters' : '' @ context = 'styleString'}">   
+		<sly data-sly-test="${properties.numCols == '100'}">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+				<sly data-sly-resource="${ @path='colpar-1', resourceType='wcm/foundation/components/parsys'}" />
+			</div>           
+		</sly>
+		<sly data-sly-test="${properties.numCols == '50-50'}">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+				<sly data-sly-resource="${ @path='colpar-1', resourceType='wcm/foundation/components/parsys'}" />
+			</div>
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+				<sly data-sly-resource="${ @path='colpar-2', resourceType='wcm/foundation/components/parsys'}" />
+			</div>   
+		</sly>
+		<sly data-sly-test="${properties.numCols == '35-65'}">
+			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+				<sly data-sly-resource="${ @path='colpar-1', resourceType='wcm/foundation/components/parsys'}" />
+			</div>
+			<div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+				<sly data-sly-resource="${ @path='colpar-2', resourceType='wcm/foundation/components/parsys'}" />
+			</div>   
+		</sly>
+		<sly data-sly-test="${properties.numCols == '75-25'}">
+			<div class="col-xl-9 col-lg-9 col-md-9 col-sm-12">
+				<sly data-sly-resource="${ @path='colpar-1', resourceType='wcm/foundation/components/parsys'}" />
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+				<sly data-sly-resource="${ @path='colpar-2', resourceType='wcm/foundation/components/parsys'}" />
+			</div>   
+		</sly>
+		<sly data-sly-test="${properties.numCols == '25-75'}">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+				<sly data-sly-resource="${ @path='colpar-1', resourceType='wcm/foundation/components/parsys'}" />
+			</div>
+			<div class="col-xl-9 col-lg-9 col-md-9 col-sm-12">
+				<sly data-sly-resource="${ @path='colpar-2', resourceType='wcm/foundation/components/parsys'}" />
+			</div>   
+		</sly>
+		<sly data-sly-test="${properties.numCols == '33-33-33'}">
+			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+				<sly data-sly-resource="${ @path='colpar-1', resourceType='wcm/foundation/components/parsys'}" />
+			</div>
+			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+				<sly data-sly-resource="${ @path='colpar-2', resourceType='wcm/foundation/components/parsys'}" />
+			</div>
+			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+				<sly data-sly-resource="${ @path='colpar-3', resourceType='wcm/foundation/components/parsys'}" />
+			</div>
+		</sly> 
+		<sly data-sly-test="${properties.numCols == '25-25-25-25'}">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+				<sly data-sly-resource="${ @path='colpar-1', resourceType='wcm/foundation/components/parsys'}" />
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+				<sly data-sly-resource="${ @path='colpar-2', resourceType='wcm/foundation/components/parsys'}" />
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+				<sly data-sly-resource="${ @path='colpar-3', resourceType='wcm/foundation/components/parsys'}" />
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+				<sly data-sly-resource="${ @path='colpar-4', resourceType='wcm/foundation/components/parsys'}" />
+			</div>
+		</sly>
+		<sly data-sly-test="${properties.numCols == 'resp-25-25-25-25'}">
+			 <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+				<sly data-sly-resource="${ @path='colpar-1', resourceType='wcm/foundation/components/parsys'}" />
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+				<sly data-sly-resource="${ @path='colpar-2', resourceType='wcm/foundation/components/parsys'}" />
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+				<sly data-sly-resource="${ @path='colpar-3', resourceType='wcm/foundation/components/parsys'}" />
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+				<sly data-sly-resource="${ @path='colpar-4', resourceType='wcm/foundation/components/parsys'}" />
+			</div>
+		</sly>
+		<sly data-sly-test="${properties.numCols == 'col4-large-col1-small'}">
+			<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+				<sly data-sly-resource="${ @path='colpar-1', resourceType='wcm/foundation/components/parsys'}" />
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+				<sly data-sly-resource="${ @path='colpar-2', resourceType='wcm/foundation/components/parsys'}" />
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+				<sly data-sly-resource="${ @path='colpar-3', resourceType='wcm/foundation/components/parsys'}" />
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+				<sly data-sly-resource="${ @path='colpar-4', resourceType='wcm/foundation/components/parsys'}" />
+			</div>
+		</sly>
+		<sly data-sly-test="${properties.numCols == 'responsive-33-33-33'}">
+			<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+				<sly data-sly-resource="${ @path='colpar-1', resourceType='wcm/foundation/components/parsys'}" />
+			</div>
+			<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+				<sly data-sly-resource="${ @path='colpar-2', resourceType='wcm/foundation/components/parsys'}" />
+			</div>
+			<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+				<sly data-sly-resource="${ @path='colpar-3', resourceType='wcm/foundation/components/parsys'}" />
+			</div>
+		</sly>
+		<sly data-sly-test="${properties.numCols == 'responsive-50-50'}">
+			<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+				<sly data-sly-resource="${ @path='colpar-1', resourceType='wcm/foundation/components/parsys'}" />
+			</div>
+			<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+				<sly data-sly-resource="${ @path='colpar-2', resourceType='wcm/foundation/components/parsys'}" />
+			</div>
+		</sly>
+		<sly data-sly-test="${properties.numCols == 'responsive-25-75'}">
+			<div class="col-xl-3 col-lg-12 col-md-12 col-sm-12">
+				<sly data-sly-resource="${ @path='colpar-1', resourceType='wcm/foundation/components/parsys'}" />
+			</div>
+			<div class="col-xl-9 col-lg-12 col-md-12 col-sm-12">
+				<sly data-sly-resource="${ @path='colpar-2', resourceType='wcm/foundation/components/parsys'}" />
+			</div>   
+		</sly>
+	</div> <!--//row -->
+</div> <!--//container -->
+
+<sly data-sly-call="${templates.placeholder @ isEmpty = !button.label}"></sly>

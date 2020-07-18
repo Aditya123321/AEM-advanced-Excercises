@@ -1,0 +1,2 @@
+#base=js
+searchcomponent.js

@@ -1,0 +1,18 @@
+<!--Show this only in edit mode to the author-->
+<div data-sly-test="${wcmmode.edit}" data-emptytext="${component.title}" class="cq-placeholder"></div>
+
+ 
+
+
+<h3>Category</h3>
+<p>${properties.cat}</p>
+
+ 
+
+<h2>Questions</h2><br>
+<p>${properties.ques}</p>
+
+ 
+
+<h2>Answer</h2><br>
+<p>${properties.ans @ context='html'}</p>

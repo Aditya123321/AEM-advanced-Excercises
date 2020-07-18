@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1582870668986
+Build-Jdk: 1.8.0_191
+Built-By: aditya.sharma
+Bundle-Description: Bundles for Integration Tests for advanceassessment
+Bundle-ManifestVersion: 2
+Bundle-Name: advanceassessment - Integration Tests Bundles
+Bundle-SymbolicName: com.tadigital.advanceassessment.it.tests
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.tadigital.advanceassessment.it.tests;uses:="org.apac
+ he.sling.junit.annotations,org.junit,org.junit.runner";version="0.0.1"
+Import-Package: com.tadigital.advanceassessment.core.models;version="[0.
+ 0,1)",org.apache.sling.api.resource;version="[2.11,3)",org.apache.sling
+ .junit.annotations;version="[1.0,2)",org.apache.sling.settings;version=
+ "[1.3,2)",org.junit;version="[4.8,5)",org.junit.runner;version="[4.8,5)
+ "
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Sling-Test-Regexp: .*Test
+Tool: Bnd-4.1.0.201810181252

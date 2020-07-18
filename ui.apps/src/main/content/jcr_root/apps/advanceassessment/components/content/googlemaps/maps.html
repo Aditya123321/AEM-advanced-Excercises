@@ -1,0 +1,8 @@
+
+<h1 style="text-align: center;">Google Map Component</h1>
+<sly data-sly-use.googModel="com.tagidital.sampleproject.core.models.GoogleMapModel"/>
+  <div> ${googModel.latlon}</div>
+
+<iframe src="https://maps.google.com/maps?q=${googModel.address || googModel.latlon}&z=10&output=embed" width="${properties.width}" height="${properties.height}" frameborder="0" style="border:0"></iframe>
+</sly>
+

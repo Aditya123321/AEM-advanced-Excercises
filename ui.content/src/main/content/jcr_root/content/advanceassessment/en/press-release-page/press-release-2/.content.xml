@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-03-11T11:59:37.023+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/advanceassessment/settings/wcm/templates/custom-page-properties-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Press Release 2"
+        sling:resourceType="sampleproject/components/structure/page2"
+        date="11/03/2020">
+        <root
+            jcr:lastModified="{Date}2020-02-14T12:42:49.967+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <pressreleasecomponen
+                jcr:created="{Date}2020-03-11T11:59:12.961+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-03-11T11:59:37.021+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="advanceassessment/components/content/pressreleasecomponent"
+                bodycontent="&lt;p>I’ve had Diabetes for 20 years and was diagnosed when I was 6. In my spare time I play a full-contact sport called roller derby. My team is ranked 12th in Europe out of almost 400 teams.I’ve played for the last 4 years and have somewhat managed to control my Diabetes whilst taking part in regular training and games, although my blood sugars do sometimes impact my performance. I also regularly go to the gym and have controlled my blood glucose through lots of finger prick testing and insulin changes on a trial and error basis.&lt;/p>&#xd;&#xa;"
+                intropara="&lt;p>Share Everyday Victories&lt;/p>&#xd;&#xa;"
+                subtitle="In the zone"
+                textIsRich="[true,true]"/>
+        </root>
+    </jcr:content>
+</jcr:root>

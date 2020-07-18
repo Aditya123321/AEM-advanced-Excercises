@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-03-11T12:42:31.992+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/advanceassessment/settings/wcm/templates/pr-contact-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="PR Contact Page 1"
+        sling:resourceType="sampleproject/components/structure/prcontact"
+        altemail="itservicedesk@gmail.com"
+        company="TA Digital"
+        email="admin@gmail.com"
+        fax="040-89896532"
+        name="TA Digital"
+        phone="9898989898"
+        title="TA Digital">
+        <root
+            jcr:lastModified="{Date}2020-03-11T12:38:30.168+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid"/>
+    </jcr:content>
+</jcr:root>

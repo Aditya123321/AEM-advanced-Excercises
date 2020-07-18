@@ -1,0 +1,27 @@
+.name {
+    position: absolute;
+    top: 360px;
+    left: 50px;
+    font-size: 100px;
+    color: darkblue;
+}
+.profileposition {
+    position: absolute;
+    bottom: 16px;
+    left: 50px;
+}
+.designation {
+    position: absolute;
+    left: 40%;
+    top: 530px;
+    font-size: 50px;
+}
+.address {
+    position: absolute;
+    left: 40%;
+    bottom: 127px;
+    font-size: 30px;
+}
+.city {
+    color: red;
+}

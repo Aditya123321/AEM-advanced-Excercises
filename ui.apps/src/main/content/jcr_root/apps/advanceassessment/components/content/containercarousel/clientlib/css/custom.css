@@ -1,0 +1,42 @@
+.carouselcontainer {
+    list-style-type: none;
+}
+.item{
+    display: none;
+    height: 500px;
+}
+.item.active{
+    position: relative;
+    top: 5%;
+    left: 14%;
+    display: block;
+}
+.item.prev, .item.next {
+    height: 55%;
+    display: block;
+    position: absolute;
+    z-index: -1;
+    display: block;
+}
+.item.next {
+    left: 442px;
+}
+.item.prev {
+    right: 442px;
+}
+a.LEFT,a.RIGHT {
+    background: white;
+    color: black;
+    border: 1px solid black;
+    padding: 1%;
+    text-decoration-line: none;
+}
+a.RIGHT {
+    position: absolute;
+    top:240px;
+    right:140px;
+}
+a.LEFT {
+    position: absolute;
+    top:240px;
+    left:130px;

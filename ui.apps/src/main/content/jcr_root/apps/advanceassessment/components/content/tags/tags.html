@@ -1,0 +1,17 @@
+<sly data-sly-use.tagmodel="com.tadigital.advanceassessment.core.models.TagListModel">
+	<div class="tags-container">
+        <div class="custom-container">
+            <div class="tags-container-wrapper">
+                    <div class="tag-set clearfix" data-sly-list.taglist = ${tagmodel.tagnameList}>
+                         <a class="one-col" id="${taglist.tagName}">
+                            <span id="${taglist.tagName}" class="span-text">${taglist.tagName}</span>
+                        </a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</sly>
+
+<div id="ajaxResponse">
+
+</div>

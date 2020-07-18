@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:language="de"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="nt:folder">
+    <Hello
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="de Hallo zusammen. Dies ist ein übersetzter Satz."/>
+    <Hello_x0020_everyone._x0020_This_x0020_is_x0020_a_x0020_translated_x0020_sentence.
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="de Hallo zusammen. Dies ist ein übersetzter Satz."/>
+</jcr:root>

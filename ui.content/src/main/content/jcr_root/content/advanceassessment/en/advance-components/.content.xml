@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-03-11T16:20:30.129+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/advanceassessment/settings/wcm/templates/content-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Advance Components"
+        sling:resourceType="advanceassessment/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <youtubecomp
+                    jcr:created="{Date}2020-02-13T11:51:46.474+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-02-13T11:51:46.474+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="advanceassessment/components/content/youtubecomp"/>
+                <labels1
+                    jcr:created="{Date}2020-02-13T11:51:54.104+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-02-13T11:52:01.312+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="advanceassessment/components/content/labels1">
+                    <linklabel jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            linktexts="1"
+                            linkurl="2"/>
+                    </linklabel>
+                </labels1>
+                <employeedetails
+                    jcr:created="{Date}2020-02-13T11:52:04.229+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-02-14T16:09:03.181+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="advanceassessment/components/content/employeedetails"
+                    addressline1="1"
+                    addressline2="2"
+                    city="3"
+                    country="India"
+                    designation="Associate"
+                    name="Dipon"
+                    phonenumber="989898989"
+                    state="West Bengal"/>
+                <carouselcontainer
+                    jcr:created="{Date}2020-03-09T12:52:36.637+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-03-09T12:52:36.637+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="advanceassessment/components/content/carouselcontainer">
+                    <content
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/parsys">
+                        <carouselimage
+                            jcr:created="{Date}2020-03-09T12:52:42.935+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2020-03-09T12:52:49.686+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="advanceassessment/components/content/carouselimage"
+                            fileReference="/content/dam/abott/carouselimage4.png"/>
+                        <carouselimage_357725369
+                            jcr:created="{Date}2020-03-09T12:52:58.365+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2020-03-09T12:53:06.404+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="advanceassessment/components/content/carouselimage"
+                            fileReference="/content/dam/abott/carouselimage1.png"/>
+                        <carouselimage_1096336202
+                            jcr:created="{Date}2020-03-09T12:53:09.719+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2020-03-09T12:53:19.983+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="advanceassessment/components/content/carouselimage"
+                            fileReference="/content/dam/abott/carouselimage5.png"/>
+                    </content>
+                </carouselcontainer>
+                <mailtocomponent
+                    jcr:created="{Date}2020-03-11T16:14:40.367+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-03-11T16:14:40.367+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="advanceassessment/components/content/mailtocomponent"/>
+                <contactuscomponent
+                    jcr:created="{Date}2020-03-11T16:17:27.005+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-03-11T16:20:30.107+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="advanceassessment/components/content/contactuscomponent"
+                    buttonlabel="Submit"
+                    cclabel="CC me"
+                    emailidlabel="Email Id "
+                    firstnamelabel="First name"
+                    lastnamelabel="Last Name"
+                    phonenumberlabel="Phone Number"
+                    questionslabel="Questions"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>
